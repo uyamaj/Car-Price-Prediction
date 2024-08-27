@@ -4,11 +4,9 @@ import requests
 import pickle
 import numpy as np
 import sklearn
-import joblib
 from sklearn.preprocessing import StandardScaler
 app = Flask(__name__)
-model = joblib.load('car_price_predict.model.pkl')
-# model = pickle.load(open('car_price_prediction.model.pkl', 'rb'))
+model = pickle.load(open('car_price_prediction.model.pkl', 'rb'))
 @app.route('/',methods=['GET'])
 def Home():
     return render_template('index.html')
