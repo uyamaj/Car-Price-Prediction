@@ -1,21 +1,54 @@
-certifi
-chardet
-click
-idna
-itsdangerous
-Jinja2
-joblib
-jsonify
-MarkupSafe
-requests
-scipy
-threadpoolctl
-urllib3
-Werkzeug
-wincertstore
-gunicorn
-Flask
-numpy 
-pandas
-scikit-learn
+# certifi
+# chardet
+# click
+# idna
+# itsdangerous
+# Jinja2
+# joblib
+# jsonify
+# MarkupSafe
+# requests
+# scipy
+# threadpoolctl
+# urllib3
+# Werkzeug
+# wincertstore
+# gunicorn
+# Flask
+# numpy 
+# pandas
+# scikit-learn
+
+blinker==1.8.2
+certifi==2024.7.4
+chardet==5.2.0
+charset-normalizer==3.3.2
+click==8.1.7
+colorama==0.4.6
+Flask==3.0.3
+gunicorn==23.0.0
+idna==3.8
+itsdangerous==2.2.0
+Jinja2==3.1.4
+joblib==1.4.2
+jsonify==0.5
+MarkupSafe==2.1.5
+numpy==2.1.0
+packaging==24.1
+pandas==2.2.2
+python-dateutil==2.9.0.post0      
+pytz==2024.1
+pywebio==1.8.3
+requests==2.32.3
+scikit-learn==1.5.1
+scipy==1.14.1
+six==1.16.0
+threadpoolctl==3.5.0
+tornado==6.4.1
+tzdata==2024.1
+ua-parser==0.18.0
+urllib3==2.2.2
+user-agents==2.2.0
+Werkzeug==3.0.4
+wincertstore==0.2.1
 
